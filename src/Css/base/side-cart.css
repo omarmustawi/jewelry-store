@@ -1,0 +1,14 @@
+.side-cart {
+  width: 350px;
+  z-index: 1040;
+  transform: translateX(0%);
+  transition: all 1s ease-in-out;
+}
+.translate-sideCart {
+  transform: translateX(100%);
+}
+/* start css for Item component */
+.item img {
+  height: 6rem;
+}
+/* end css for Item component */
