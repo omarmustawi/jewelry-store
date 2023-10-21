@@ -1,0 +1,110 @@
+li .active {
+  color: #a86e3b;
+}
+
+.dark {
+  color: #555;
+}
+.light {
+  color: #888;
+}
+.link {
+  text-transform: uppercase;
+}
+.link:hover {
+  color: #a86e3b;
+}
+
+.bg-home {
+  background-image: url("../../Css/assets/images/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: 58% center;
+  background-size: cover;
+  height: 100vh;
+}
+@media (min-width: ) {
+  .bg-home {
+    background-position: center center;
+  }
+}
+.text-start {
+  text-align: start;
+}
+
+.bg-nav {
+  background-color: #fff;
+}
+
+.text-6xl {
+  font-size: 4rem;
+}
+.text-md {
+  font-size: 1rem;
+}
+.line-brown {
+  border: #a86e3b 1px solid;
+  width: 5rem;
+  margin: auto;
+}
+.one-product {
+  cursor: pointer;
+  width: fit-content;
+}
+.one-product img {
+  border-radius: 2rem;
+  width: 100%;
+}
+.img2 {
+  display: none;
+}
+
+.one-product:hover .img1 {
+  display: none;
+}
+.one-product:hover .img2 {
+  display: block;
+}
+/* .one-product img:hover .img1 {
+  display: none;
+} */
+.pos-icon-1 {
+  top: 2rem;
+}
+.pos-icon-2 {
+  top: 4rem;
+}
+.pos-icon-3 {
+  top: 6rem;
+}
+.pos-icon-1,
+.pos-icon-2 ,
+.pos-icon-3 {
+  right: 1rem;
+}
+.footer {
+  background-color: #faf5f0;
+}
+.left-nav {
+  top: 4rem;
+  left: 2rem;
+}
+.right-nav {
+  top: 4rem;
+  right: 2rem;
+}
+.footer .to-right  {
+  transition: all .3s;
+  align-items: start;
+}
+.footer .to-right:hover {
+  transform: translateX(10px);
+}
+
+.rotate-element {
+  transform: rotate(45deg);
+  transition: all 0.5s;
+}
+.rotate-0 {
+  transform: rotate(0deg);
+  transition: all 0.5s;
+}

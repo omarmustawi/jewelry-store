@@ -1,0 +1,30 @@
+@import "../../../Css/base/variable.css";
+.dashboard {
+  min-height: calc(100vh - 70px);
+  background-color: #f7f8fa;
+}
+/* th,
+td,
+.bg-input-control {
+  background: #f4f2ff !important;
+  color: #555 !important;
+} */
+th , .cart-total h4 {
+  background-color: #faf5f0 !important;
+  color: #555 !important;
+}
+
+.bg-control {
+  background-color: var(--bg);
+}
+.bg-input-control {
+}
+.img-add-product {
+  width: 7rem;
+}
+
+
+td {
+  vertical-align: middle;
+  color: #666 !important;
+}
